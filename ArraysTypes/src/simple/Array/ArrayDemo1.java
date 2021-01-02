@@ -17,7 +17,7 @@ public class ArrayDemo1 {
 		System.out.println("");
         
 		
-		int num[] = {2,4,5,4};
+		int num[] = {1,2,4,5,6};
 		
 		//here we can only get the whole Array all the time we can not get any particular value
 		for(int n : num)
