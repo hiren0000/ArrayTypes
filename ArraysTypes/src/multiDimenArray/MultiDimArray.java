@@ -28,7 +28,8 @@ public class MultiDimArray {
 		}
 		
 		System.out.println("");
-   // We can also use the Enhanced or Each for loop
+   
+	// We can also use the Enhanced for loop
 		
 		for(int k[] : xyz)
 		{

@@ -7,15 +7,18 @@ public class ArrayDemo1 {
 		
 		
 		String list[] = {"Hiren", "Rucha", "Devmurari"};
-      
+	
+		//	int list[] = {1,2,4,5,6};
+		
 		// normal for loop we can also get the specific value in this
 		for(int i=0;i<list.length;i++)
 		{
 			System.out.println(list[i]);
 		}
 	
+		
 		System.out.println("");
-        
+		
 		
 		int num[] = {1,2,4,5,6};
 		
@@ -24,6 +27,16 @@ public class ArrayDemo1 {
 		{
 			System.out.println(n);
 		}
+		
+		System.out.println("");
+		
+		System.out.println("below example shows the additon operation of Array's elelment");
+		
+		System.out.println("");
+		
+		AdditionArrayEle ad = new AdditionArrayEle();
+		ad.additionOfArEle();
+		
 	}
 	
 	
